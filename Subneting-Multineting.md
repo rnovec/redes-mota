@@ -22,9 +22,10 @@ Ejemplo. Para una máscara **30** con un excedente de **6** partiendo de **24**:
 #### Ejemplos
 
 `10.0.0.0/24` -> `255.255.255.0`
-Red ID | Red (bits) | Host (bits) | Ámbito  | Equipos |Redes| Default gateway | Broadcast |
+
+Red ID | Red (bits) | Host (bits) | Ámbito  | Equipos | Redes | Default gateway | Broadcast |
 -----------|---|---|--------------------|---------|---------|---|----------------|-----------|
-x.x.x.0/19 | 3 | 13| .1-224.254  | 2^13 - 2 = 8192 | 2^3 = 8 |  ?       |   224.255 |
+x.x.x.0/19 | 3 | 13 | .1-224.254  | 2^13 - 2 = 8192 | 2^3 = 8 |  ?       |   224.255 |
 x.x.x.0/24 | 0 | 8 | .1-.254     | 2^8 - 2 = 254   | 1       |  .254    |   .255    |
 x.x.x.0/25 | 1 | 7 | .1-.126     | 2^7 - 2 = 126   | 1       |  .126    |   .128    |
 x.x.x.0/26 | 2 | 6 | .1-.62      | 2^6 - 2 = 62    | 1       |  .62     |   .64     |
